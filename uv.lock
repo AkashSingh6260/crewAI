@@ -1463,7 +1463,7 @@ requires-dist = [
     { name = "tokenizers", specifier = ">=0.21,<1" },
     { name = "tomli", specifier = "~=2.0.2" },
     { name = "tomli-w", specifier = "~=1.1.0" },
-    { name = "voyageai", marker = "extra == 'voyageai'", specifier = "~=0.3.5" },
+    { name = "voyageai", marker = "extra == 'voyageai'", specifier = "~=0.4.0" },
 ]
 provides-extras = ["a2a", "anthropic", "aws", "azure-ai-inference", "bedrock", "docling", "embeddings", "file-processing", "google-genai", "litellm", "mem0", "openpyxl", "pandas", "qdrant", "qdrant-edge", "tools", "voyageai", "watson"]
 
@@ -9726,7 +9726,7 @@ wheels = [
 
 [[package]]
 name = "voyageai"
-version = "0.3.7"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -9741,9 +9741,9 @@ dependencies = [
     { name = "tenacity" },
     { name = "tokenizers" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/94/16/1b46b3cd401e1717a68197c1fe336d7bb4e0a1833f8105e1738f5b1add05/voyageai-0.3.7.tar.gz", hash = "sha256:826cd97f97223f42b5babc5c459c9c80f3a8215ce5c0e007b0b276550f790d24", size = 26485, upload-time = "2025-12-16T18:43:05.26Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2d/e4/66f9db396f51b53b29c0a11671f6de2d9da0d69acc9774d935dcbbfc1e5b/voyageai-0.4.0.tar.gz", hash = "sha256:1a4b3b0750eb5bf8a8fa978d834a1aa720e1a0157710cd603856c19562c6e5f7", size = 27522, upload-time = "2026-06-05T12:53:19.489Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/60/64/89f6325666d6836979f94ac88b96fefc7527e02e61abc81359843585e088/voyageai-0.3.7-py3-none-any.whl", hash = "sha256:909f6c033001e5a3b3caf970525bf3614a1bfef9003cf3c3b68207dfdb53e86d", size = 34691, upload-time = "2025-12-16T18:43:04.073Z" },
+    { url = "https://files.pythonhosted.org/packages/9a/49/930b15515e39889c425015c6194f9fe67c474a506ef33a9d5547aba2853a/voyageai-0.4.0-py3-none-any.whl", hash = "sha256:88e489c6138969a53b9906a3b3aed09d382105f95ef7d62661f21c042eb40264", size = 35946, upload-time = "2026-06-05T12:53:18.621Z" },
 ]
 
 [[package]]
