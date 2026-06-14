@@ -1754,7 +1754,7 @@ requires-dist = [
     { name = "multion", marker = "extra == 'multion'", specifier = ">=1.1.0" },
     { name = "nest-asyncio", marker = "extra == 'bedrock'", specifier = ">=1.6.0" },
     { name = "nest-asyncio", marker = "extra == 'contextual'", specifier = ">=1.6.0" },
-    { name = "oxylabs", marker = "extra == 'oxylabs'", specifier = "==2.0.0" },
+    { name = "oxylabs", marker = "extra == 'oxylabs'", specifier = "==3.0.0" },
     { name = "patronus", marker = "extra == 'patronus'", specifier = ">=0.0.16" },
     { name = "playwright", marker = "extra == 'bedrock'", specifier = ">=1.52.0" },
     { name = "psycopg2-binary", marker = "extra == 'postgresql'", specifier = ">=2.9.10" },
@@ -5770,15 +5770,15 @@ wheels = [
 
 [[package]]
 name = "oxylabs"
-version = "2.0.0"
+version = "3.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/56/03/eb10466e12d2a7aba1ff1e70264c443dedeba0e5721a9a1be7e9ac9e9092/oxylabs-2.0.0.tar.gz", hash = "sha256:a6ee24140509c7ea7935ce4c878469558402dd43657718a1cae399740b66beb0", size = 29130, upload-time = "2025-03-28T13:54:16.285Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/fb/c0/3723a60a75324ee907cb99edc560defc55e4cf6a5ad62a82472369b1f393/oxylabs-3.0.0.tar.gz", hash = "sha256:e954dd904cc31a0642dfc85b28c3c000068368ee2aed94f32eece2585819e650", size = 49119, upload-time = "2026-03-09T10:38:16.159Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b7/c1/88bf70a327c86f8529ad3a4ae35e92fcebf05295668fca7973279e189afe/oxylabs-2.0.0-py3-none-any.whl", hash = "sha256:3848d53bc47acdcea16ea829dc52416cdf96edae130e17bb3ac7146b012387d7", size = 34274, upload-time = "2025-03-28T13:54:15.188Z" },
+    { url = "https://files.pythonhosted.org/packages/96/5d/8eda2e448dcfa9ba3733e1466fa346335711891a5d69657d298490ae142f/oxylabs-3.0.0-py3-none-any.whl", hash = "sha256:6ec1843fc7549885db980a06f03ac5088124a56e6b061c3cdf27c4b250ffa279", size = 99503, upload-time = "2026-03-09T10:38:14.928Z" },
 ]
 
 [[package]]
