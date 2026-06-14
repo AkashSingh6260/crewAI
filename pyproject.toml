@@ -9,7 +9,7 @@ authors = [
 [dependency-groups]
 dev = [
     "ruff==0.15.1",
-    "mypy==1.19.1",
+    "mypy==2.1.0",
     "pre-commit==4.5.1",
     "bandit==1.9.2",
     "pytest==9.0.3",
